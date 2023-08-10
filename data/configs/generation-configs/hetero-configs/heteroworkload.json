@@ -1,0 +1,12 @@
+{
+    "notes": "Heterogeneous dataset for container placements",
+    "dataset_id": 15,
+    "timesteps": 10000,
+    "services_types": 1,
+    "workloads_var" : {
+        "steps_unit":[[0, 0]],
+        "max_steps":[[1, 1]]
+    },
+    "plot_smoothing":301,
+    "seed":42
+}
