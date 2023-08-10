@@ -1,0 +1,24 @@
+Bottleneck @ file:///opt/conda/conda-bld/bottleneck_1657175564434/work
+brotlipy==0.7.0
+certifi @ file:///croot/certifi_1683875369620/work/certifi
+cffi @ file:///tmp/abs_98z5h56wf8/croots/recipe/cffi_1659598650955/work
+chardet @ file:///tmp/build/80754af9/chardet_1607706775000/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+click @ file:///tmp/build/80754af9/click_1646056590078/work
+cryptography @ file:///croot/cryptography_1677533068310/work
+idna @ file:///croot/idna_1666125576474/work
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186066731/work
+mkl-service==2.4.0
+numexpr @ file:///croot/numexpr_1668713893690/work
+numpy @ file:///croot/numpy_and_numpy_base_1682520569166/work
+packaging @ file:///croot/packaging_1678965309396/work
+pandas==1.5.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyOpenSSL @ file:///croot/pyopenssl_1677607685877/work
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305812635/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz @ file:///croot/pytz_1671697431263/work
+requests @ file:///croot/requests_1682607517574/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+urllib3 @ file:///croot/urllib3_1680254681959/work
