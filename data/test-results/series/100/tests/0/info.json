@@ -1,0 +1,18 @@
+{
+    "type_env": "sim-edge",
+    "series": 100,
+    "dataset_id": 6,
+    "workload_id": 0,
+    "network_id": 1,
+    "trace_id": 0,
+    "trace_id_test": 0,
+    "checkpoint": 37,
+    "experiment_str": "IMPALA_SimEdgeEnv_1f0f7_00000_0_lr=0.0003_2023-08-09_16-40-52",
+    "experiments": 0,
+    "episode_length": 3453,
+    "num_episodes": 1,
+    "algorithm": "IMPALA",
+    "penalty_latency": 10,
+    "penalty_consolidated": 4,
+    "num_workers": 4
+}

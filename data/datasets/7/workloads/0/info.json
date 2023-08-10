@@ -1,0 +1,22 @@
+{
+    "notes": "Paper Heterogeneous Resource usage workload for 40 Nodes",
+    "dataest_id": 7,
+    "timesteps": 10000,
+    "services_types": 1,
+    "workload_var": {
+        "steps_unit": [
+            [
+                0,
+                0
+            ]
+        ],
+        "max_steps": [
+            [
+                1,
+                1
+            ]
+        ]
+    },
+    "plot_smoothing": 301,
+    "seed": 42
+}

@@ -1,0 +1,7 @@
+{
+    "notes": "dataset timestep",
+    "from_dataset": true,
+    "seed": 42,
+    "speed": 30,
+    "timesteps": 3453
+}

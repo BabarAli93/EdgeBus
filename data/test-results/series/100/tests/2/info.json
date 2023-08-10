@@ -1,0 +1,12 @@
+{
+    "dataset_id": 6,
+    "workload_id": 0,
+    "network_id": 1,
+    "trace_id": 0,
+    "trace_id_test": 0,
+    "experiment_id": 0,
+    "episode_length": 3453,
+    "algorithm": "binpacking",
+    "penalty_latency": 10,
+    "penalty_consolidated": 4
+}
