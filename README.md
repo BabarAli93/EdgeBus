@@ -24,8 +24,11 @@ Co-Simulator for Resource Management in Mobile Edge Computing Enviornment.
 '''conda create -n Env_Name python=3.9.16
 OR
 python3 -m venv Env_Name'''
+### Using conda:
+```bash
+conda create -n Env_Name python=3.9.16
 
-2. 
 3. 
 4. 
+5. 
 
