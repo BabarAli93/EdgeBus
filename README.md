@@ -16,5 +16,7 @@ to baseline schedulers such as IMPALA-based Mobile-Kube, Latency Greedy, and Bin
 been conducted, which demonstrate the effectiveness of the MANGO in terms of latency and number of migrations
 Co-Simulator for Resource Management in Mobile Edge Computing Enviornment.
 
-![image](https://github.com/BabarAli93/Commando/assets/50677432/3bd666f1-fb09-4a5a-a37a-553e34664f94)
+[main_diagram.pdf](https://github.com/BabarAli93/EdgeBus/files/15388217/main_diagram.pdf)
+
+
 
