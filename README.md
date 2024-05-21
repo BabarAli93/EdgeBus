@@ -28,11 +28,14 @@ git clone https://github.com/BabarAli93/EdgeBus.git
 6. You can create a virtual environment using either conda or Python's built-in venv module.
    
    Using conda:
-   ```bash
+   ```
    conda create --name Env_Name python=3.9.16
+   ```
    OR
    Using Python's venv:
+   ```
    python3 -m venv Env_Name
-7. Activate the virtual environment. For conda: 
-8. 
+   ```
+8. Activate the virtual environment. For conda: 
+9. 
 
