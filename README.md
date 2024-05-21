@@ -101,9 +101,9 @@ This step will take time depending upon the Computational Power of host machine 
 
 ## 4. experiments
 There are further three sub-folders in here.
-4.1 analysis
-4.2 dataset
-4.3 training
+### 4.1 analysis
+### 4.2 dataset
+### 4.3 training
 
 
 
