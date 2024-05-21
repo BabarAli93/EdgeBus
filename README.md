@@ -52,3 +52,5 @@ conda install --file requirements.txt
 # [Optional] Google Kubernetes Engine
 EdgeBus supports experimentation both at the simulation level and the real world Kubernetes level. If you have chosen to go for Kubernetes based experiments, you will need to configure a cluster in Google Kubernetes Engine (GKE). 
 Follow [GKE Cluster](https://github.com/saeid93/mobile-kube/blob/main/docs/kubernetes/installation-gcp.md) creation guide for this purpose. 
+After successful creation of cluster, we need to connect to it using the CONNECT buttion and execute the given command in the terminal, it will give us access to the cluster from our local machine.
+![image (26)](https://github.com/BabarAli93/EdgeBus/assets/50677432/f21b1bc6-0a50-4449-bbea-d2e4c8b1b5c2)
