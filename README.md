@@ -98,3 +98,12 @@ Run main file to generate the traces
 python main.py
 ```
 This step will take time depending upon the Computational Power of host machine as it needs to process data of almost 536 taxi from the Cabspotting dataset and eventually generate one file containing longiture and latitude over the course of time. 
+
+## experiments
+There are further three sub-folders in here.
+a. analysis
+b. dataset
+c. training
+
+
+
