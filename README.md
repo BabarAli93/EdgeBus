@@ -106,7 +106,7 @@ For experiment, we need to generate Dataset (servers cluster, Containers/ servic
 #### dataset
 To generate dataset, first of all there is a need to create a JSON file or modify an existing containing the configurations of servers, servers quantity, total containers and their resource request. For that, you can use existing one at [EdgeBus/data/configs/generation-configs/hetero-configs/heterodataset.json](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs/heterodataset.json). 
 
-Given configuration will create one edge server with 2 core CPU and 8GB RAM, four containers/ services with two resources of CPU and RAM. Each service will be requesting for 250MB RAM and 125 mil cores of CPU (1000 milicores=1vCPU). You can modify the CPU and RAM of each node individually at 'nodes_cap_rng'. For detailed reference visit the [JSON configuration](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs/heterodataset.json) file. Finally, the workload shows the CPU and memory laod to put inside each container.
+Given configuration will create one edge server with 2 core CPU and 8GB RAM, four containers/ services with two resources of CPU and RAM. Each service will be requesting for 250MB RAM and 125 mili cores of CPU (1000 milicores=1vCPU). You can modify the CPU and RAM of each node individually at 'nodes_cap_rng'. For detailed reference visit the [JSON configuration](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs/heterodataset.json) file. Finally, the workload shows the CPU and memory laod to put inside each container.
 ```
 {
     "notes":"Paper Heterogeneous dataset: 8 Nodes, 16 services",
@@ -159,6 +159,10 @@ Given configuration will create one edge server with 2 core CPU and 8GB RAM, fou
     "start_workload":[[0.5, 0.5]],
     "seed": 42
 }
+```
+This dataset will be generated from script in the experiments folder. Navigate to [experiments/dataset/generate_dataset.py](experiments/dataset/). Update the newly created or existing JSON file in 'generate_dataset.py' and execute 
+```
+python generate_dataset.py
 ```
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
