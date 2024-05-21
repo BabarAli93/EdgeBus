@@ -68,7 +68,8 @@ First of all, install this package. Navigate to mobile-kube folder and execute t
 pip install -e .
 ```
 ## data
-Link the data folder so that the configurations are picked and respected clusetr is created. Go to experiments folder and modify ```constants.py```
-
+Update the path to data folder so that the configurations are picked and respected cluster is created. Go to experiments folder and modify ```constants.py``` in the utils directory which can be found at here [experiments/utils/constants.py]
+```
+DATA_PATH = "/home/babarali/mobilekube-v2/data"```
 
 
