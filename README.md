@@ -23,9 +23,9 @@ Co-Simulator for Resource Management in Mobile Edge Computing Enviornment.
 1. Install [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) or use python for virtual environment creation
 2. You can create a virtual environment using either conda or Python's built-in venv module. 
 ```bash
-conda create -n Env_Name python=3.9.16```
+conda create -n Env_Name python=3.9.16
 OR
-```bash python3 -m venv Env_Name```
+```bash python3 -m venv Env_Name
 3. Activate virtual envionment. For conda:
 ``` conda activate Env_Name``` 
 4. 
