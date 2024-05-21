@@ -246,5 +246,5 @@ python experiments/training/train-v1.py --mode real --local-mode false --config-
 ```
 
 ### 4.3 analysis
-
+Modify the evaulation script [EdgeBus/experiments/analysis/test_rls.py](EdgeBus/experiments/analysis/test_rls.py) at here to the correct fileds and evaluate trained DRL model. For Heusistics model, use script [EdgeBus/experiments/analysis/test_baselines.py](EdgeBus/experiments/analysis/test_baselines.py).
 
