@@ -8,7 +8,7 @@ to additional underutilized active nodes and increases migration’s computation
 attributed to higher latency, thus degrading the Quality of Service (QoS). To tackle these challenges, we created a framework named
 EdgeBus, which enables the co-simulation of container resource management in heterogeneous MEC environments based on
 Kubernetes. It enables the assessment of the impact of container migrations on resource management, energy, and latency. Further,
-we propose a mobility and migration cost-aware (MANGO) lightweight scheduler for efficient container management by incorporating
+we propose a mobility and https://github.com/saeid93/mobile-kube/blob/main/docs/kubernetes/installation-gcp.mdmigration cost-aware (MANGO) lightweight scheduler for efficient container management by incorporating
 migration cost, CPU cores, and memory usage for container scheduling. For user mobility, the Cabspotting dataset is employed, which
 contains real-world traces of taxi mobility in San Francisco. In the EdgeBus framework, we have created a simulated environment aided
 with a real-world testbed using Google Kubernetes Engine (GKE) to measure the performance of the MANGO scheduler in comparison
@@ -54,3 +54,12 @@ EdgeBus supports experimentation both at the simulation level and the real world
 Follow [GKE Cluster](https://github.com/saeid93/mobile-kube/blob/main/docs/kubernetes/installation-gcp.md) creation guide for this purpose. 
 After successful creation of cluster, we need to connect to it using the CONNECT button (shown at cluster page) and execute the given command in the terminal, it will give us access to the cluster from our local machine.
 ![image (26)](https://github.com/BabarAli93/EdgeBus/assets/50677432/f21b1bc6-0a50-4449-bbea-d2e4c8b1b5c2)
+
+# Project Structure
+1. data
+This folder contains configuration files required in this project realated to edge server nodes CPU and Memory configurations, DRP model parameters, training and testing results. Configuration files in this folder are used later stages.
+2. experiment folder has files related to training the DRL model, their testing, and the evaluation of Heusistic algorithms. 
+3. mobile-kube has custom gymnasium environment employed in these settings and the simulation of chosen scheduler
+4. mobility-preprocessing is responsible to generate user mobility traces based on simulation or Cabspotting and California Tower datasets
+
+## data
