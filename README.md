@@ -240,8 +240,11 @@ You can find the newly created traces inside the created dataset folder.
 
 Everything is ready for the experimentation now. Get ready for training or testing!
 ### 4.2 training
-It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
-### 4.3 analysis
+In here, there are scripts related to training various Deep Rinforcement Learning algorithms including IMPALA, PPO etc. Training paameters for these Agents can be find at [Path](EdgeBus/data/configs/train/). To train IMPALA in these settings, execute
+```
+python experiments/training/train-v1.py --mode real --local-mode false --config-folder IMPALA --type-env 0 --dataset-id 0 --workload-id 0 --use-callback true
+```
 
+### 4.3 analysis
 
 
