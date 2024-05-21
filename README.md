@@ -183,6 +183,13 @@ Go to [EdgeBus/data/configs/generation-configs/hetero-configs/heteroworkload.jso
     "seed":42
 }
 ```
+
+Workload will be generated from script in the experiments folder. Navigate to [experiments/dataset/](experiments/dataset/). Update the newly created or existing JSON file in 'generate_workload.py' and execute 
+```
+python generate_workload.py
+```
+You can find the newly created workload inside the previously created dataset folder. 
+
 #### Network
 Next task is to generate the Network containing all the users, servers and services deployed. For that, update fileds in [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json). Following configuratins will create a netowork in dataset 7 with 20 taxis/ users. We have 8 stations/ edge servers in this sample.
 
