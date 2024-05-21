@@ -40,4 +40,11 @@ git clone https://github.com/BabarAli93/EdgeBus.git
 ```
 conda activate Env_Name
 ```
-5. 
+5. Install following packages
+```
+ sudo apt install cmake libz-dev
+```
+6. Install all the required packages from the requirements file
+```
+conda install --file requirements.txt
+```
