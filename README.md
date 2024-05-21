@@ -164,7 +164,26 @@ This dataset will be generated from script in the experiments folder. Navigate t
 ```
 python generate_dataset.py
 ```
-You can find the newly created dataset or a clutser in other words at the [Path](data/datasets)
+You can find the newly created dataset or a clutser in other words at the [Path](data/datasets). These are generated in numbered folders and these numbers are needed for next steps to produce network, workload and movement traces for correact cluster. 
+
+#### Workload
+Go to [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json) and make required modificatins. Following given configurations will create workload for dataset number7 for 10000 timesteps. 
+
+```
+{
+    "notes": "resoure usage",
+    "dataset_id": 7,
+    "timesteps": 10000,
+    "services_types": 1,
+    "workloads_var" : {
+        "steps_unit":[[0, 0]],
+        "max_steps":[[1, 1]]
+    },
+    "plot_smoothing":301,
+    "seed":42
+}
+```
+
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
 ### 4.3 analysis
