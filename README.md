@@ -212,6 +212,13 @@ Next task is to generate the Network containing all the users, servers and servi
     "colocated": true
 }
 ```
+
+Network will be generated from script in the experiments folder. Navigate to [experiments/dataset/](experiments/dataset/). Update the newly created or existing JSON file in 'generate_network.py' and execute 
+```
+python generate_network.py
+```
+You can find the newly created network inside the created dataset folder. 
+
 #### Trace
 To generate user movement traces, navigate to [EdgeBus/data/configs/generation-configs/hetero-configs/heterotrace.json](data/configs/generation-configs/hetero-configs/heterotrace.json), make changes and save it. Following configuration will create a traces for dataset 7 and network 2 for this data. One dataset can have multiple networks. 'from_dataset' false shows that this trace will be be generated for random user movement.
 
@@ -225,6 +232,11 @@ To generate user movement traces, navigate to [EdgeBus/data/configs/generation-c
     "seed": 42
 }
 ```
+In the same way, Trace will be generated from script in the experiments folder. Navigate to [experiments/dataset/](experiments/dataset/). Update the newly created or existing JSON file in 'generate_trace.py' and execute 
+```
+python generate_trace.py
+```
+You can find the newly created traces inside the created dataset folder. 
 
 Everything is ready for the experimentation now. Get ready for training or testing!
 ### 4.2 training
