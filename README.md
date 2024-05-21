@@ -19,5 +19,13 @@ Co-Simulator for Resource Management in Mobile Edge Computing Enviornment.
 
 ![Screenshot from 2024-05-21 11-06-10](https://github.com/BabarAli93/EdgeBus/assets/50677432/e37e057f-3b2f-45cd-8760-78960d8248e6)
 
-## Introduction #
+# Setup
+1. Create a virtual enviornment using conda or Python
+'conda create -n Env_Name python=3.9.16
+OR
+python3 -m venv Env_Name'
+
+2. 
+3. 
+4. 
 
