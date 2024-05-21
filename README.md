@@ -184,7 +184,27 @@ Go to [EdgeBus/data/configs/generation-configs/hetero-configs/heteroworkload.jso
 }
 ```
 #### Network
-Next task is to generate the Network containing all the users, servers and services deployed. For that, update fileds in [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json)
+Next task is to generate the Network containing all the users, servers and services deployed. For that, update fileds in [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json). Following configuratins will create a netowork in dataset 7 with 20 taxis/ users. We have 8 stations in this sample.
+
+```
+{
+    "notes": "some network",
+    "dataset_id": 7,
+    "num_users": 20,
+    "num_stations": 8,
+    "width": 0.0001,
+    "length": 0.0001,
+    "speed_limit": 30,
+    "from_dataset": true,
+    "users_services_distributions": "equal",
+    "dataset_metadata": 2,
+    "nodes_stations_con": 1,
+    "nodes_selection": "random",
+    "nodes_list": [1, 2],
+    "seed": 253411,
+    "colocated": true
+}
+```
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
 ### 4.3 analysis
