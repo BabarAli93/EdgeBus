@@ -62,4 +62,9 @@ This folder contains configuration files required in this project realated to ed
 3. mobile-kube: It has custom gymnasium environment employed in these settings and the simulation of chosen scheduler
 4. mobility-preprocessing: This folder is responsible to generate user mobility traces based on simulation or Cabspotting and California Tower datasets
 
-## data
+## mobile-kube
+First of all, install this package. Navigate to mobile-kube folder and execute this line of code in the terminal
+```
+pip install -e .
+```
+
