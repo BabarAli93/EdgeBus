@@ -102,10 +102,11 @@ This step will take time depending upon the Computational Power of host machine 
 ## 4. experiments
 There are further three sub-folders in here.
 ### 4.1 dataset
-For experiment, we need to generate Dataset (servers cluster, Containers/ services and their capacities), network (users, tower creation and their deployment), workload (CPU and Memory load inside the containers) and user's movement traces.
+For experiment, we need to generate Dataset (servers cluster, Containers/ services, containers CPU and memory requests and capacities), network (users, tower creation and their deployment), workload (CPU and Memory load inside the containers) and user's movement traces.
+#### dataset
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
-### 4.3 training
+### 4.3 analysis
 
 
 
