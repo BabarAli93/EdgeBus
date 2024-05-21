@@ -78,3 +78,22 @@ In here, you will generate user mobility traces to be used by the simulator and 
 ```
 pip install -r requirements.txt
 ```
+Configure the options in the 'main.py' inside this folder. Options are
+```
+Usage: main.py [OPTIONS]
+
+Options:
+  -d, --dataset TEXT      Directory of Cabspotting data set  [default:
+                          data/*.txt]
+
+  -g, --get BOOLEAN       Get data set from the internet  [default: False]
+  -u, --url TEXT          The url of Cabspotting data set  [default: ]
+  -i, --interval INTEGER  Enter the intervals between two points in seconds
+                          [default: 100]
+
+  --help                  Show this message and exit.
+```
+Run main file to generate the traces
+```
+python main.py
+```
