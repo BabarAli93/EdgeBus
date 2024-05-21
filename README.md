@@ -8,7 +8,7 @@ to additional underutilized active nodes and increases migration’s computation
 attributed to higher latency, thus degrading the Quality of Service (QoS). To tackle these challenges, we created a framework named
 EdgeBus, which enables the co-simulation of container resource management in heterogeneous MEC environments based on
 Kubernetes. It enables the assessment of the impact of container migrations on resource management, energy, and latency. Further,
-we propose a mobility and https://github.com/saeid93/mobile-kube/blob/main/docs/kubernetes/installation-gcp.mdmigration cost-aware (MANGO) lightweight scheduler for efficient container management by incorporating
+we propose a mobility and migration cost-aware (MANGO) lightweight scheduler for efficient container management by incorporating
 migration cost, CPU cores, and memory usage for container scheduling. For user mobility, the Cabspotting dataset is employed, which
 contains real-world traces of taxi mobility in San Francisco. In the EdgeBus framework, we have created a simulated environment aided
 with a real-world testbed using Google Kubernetes Engine (GKE) to measure the performance of the MANGO scheduler in comparison
