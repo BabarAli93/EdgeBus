@@ -104,7 +104,7 @@ There are further three sub-folders in here.
 ### 4.1 dataset
 For experiment, we need to generate Dataset (servers cluster, Containers/ services, containers CPU and memory requests and capacities), network (users, tower creation and their deployment), workload (CPU and Memory load inside the containers) and user's movement traces.
 #### dataset
-To generate dataset, first of all there is a need to create a JSON file containing the configurations. For that, either use the existing ones or create new at [EdgeBus/data/configs/generation-configs/hetero-configs](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs)
+To generate dataset, first of all there is a need to create a JSON file os modify an existing containing the configurations of servers, servers quantity, total containers and their resource request. For that, you can use existing one at [EdgeBus/data/configs/generation-configs/hetero-configs](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs)
 ```
 {
     "notes":"Paper Heterogeneous dataset: 8 Nodes, 16 services",
