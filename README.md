@@ -104,6 +104,60 @@ There are further three sub-folders in here.
 ### 4.1 dataset
 For experiment, we need to generate Dataset (servers cluster, Containers/ services, containers CPU and memory requests and capacities), network (users, tower creation and their deployment), workload (CPU and Memory load inside the containers) and user's movement traces.
 #### dataset
+To generate dataset, first of all there is a need to create a JSON file containing the configurations. For that, either use the existing ones or create new at [EdgeBus/data/configs/generation-configs/hetero-configs](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs)
+```
+{
+    "notes":"Paper Heterogeneous dataset: 8 Nodes, 16 services",
+    "nums": {
+        "nodes": 8,
+        "services": 16,
+        "resources": 2,
+        "services_types": 1,
+        "services_types_map": [16]
+    },
+    "metrics": {
+        "ram":"mb",
+        "cpu":"core"
+    },
+    "cutoff": {
+        "ram": 1,
+        "cpu": 1
+    },
+    "nodes_cap_rng": {
+        "0":
+        {
+          "ram": {
+            "min": 8192,
+            "max": 8192,
+            "step": 1
+          },
+          "cpu": {
+            "min": 2.0,
+            "max": 2.0,
+            "step": 1
+          }
+        }
+    },
+    "services_request_rng": {
+        "0":
+            {
+            "num": 16,
+            "ram": {
+                "min": 250,
+                "max": 250,
+                "step": 1
+            },
+            "cpu": {
+                "min": 0.125,
+                "max": 0.125,
+                "step": 1
+            }
+        }
+    },
+    "start_workload":[[0.5, 0.5]],
+    "seed": 42
+}
+```
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
 ### 4.3 analysis
