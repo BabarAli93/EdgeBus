@@ -25,7 +25,10 @@ Co-Simulator for Resource Management in Mobile Edge Computing Enviornment.
    
    Using conda:
    ```bash
-   conda create -n Env_Name python=3.9.16
-4. 
+   conda create --name Env_Name python=3.9.16
+   OR
+   Using Python's venv:
+   python3 -m venv Env_Name
+3. Activate the virtual environment. For conda: 
 5. 
 
