@@ -205,6 +205,19 @@ Next task is to generate the Network containing all the users, servers and servi
     "colocated": true
 }
 ```
+#### Trace
+To generate user movement traces, navigate to [EdgeBus/data/configs/generation-configs/hetero-configs/heterotrace.json](data/configs/generation-configs/hetero-configs/heterotrace.json), make changes and save it. Following configuration will create a traces for dataset 7 and network 2 for this data. One dataset can have multiple networks. 'from_dataset' false shows that this trace will be be generated for random user movement.
+
+```
+{
+    "dataset_id": 7,
+    "network_id": 2,
+    "speed": 30,
+    "timesteps": 2000000,
+    "from_dataset": false,
+    "seed": 42
+}
+```
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
 ### 4.3 analysis
