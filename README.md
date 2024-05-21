@@ -56,10 +56,10 @@ After successful creation of cluster, we need to connect to it using the CONNECT
 ![image (26)](https://github.com/BabarAli93/EdgeBus/assets/50677432/f21b1bc6-0a50-4449-bbea-d2e4c8b1b5c2)
 
 # Project Structure
-1. data
+1. data:
 This folder contains configuration files required in this project realated to edge server nodes CPU and Memory configurations, DRP model parameters, training and testing results. Configuration files in this folder are used later stages.
-2. experiment folder has files related to training the DRL model, their testing, and the evaluation of Heusistic algorithms. 
-3. mobile-kube has custom gymnasium environment employed in these settings and the simulation of chosen scheduler
-4. mobility-preprocessing is responsible to generate user mobility traces based on simulation or Cabspotting and California Tower datasets
+2. experiment: It has files related to training the DRL model, their testing, and the evaluation of Heusistic algorithms. 
+3. mobile-kube: It has custom gymnasium environment employed in these settings and the simulation of chosen scheduler
+4. mobility-preprocessing: This folder is responsible to generate user mobility traces based on simulation or Cabspotting and California Tower datasets
 
 ## data
