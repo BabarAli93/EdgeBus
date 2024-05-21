@@ -184,7 +184,7 @@ Go to [EdgeBus/data/configs/generation-configs/hetero-configs/heteroworkload.jso
 }
 ```
 #### Network
-Next task is to generate the Network containing all the users, servers and services deployed. For that, update fileds in [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json). Following configuratins will create a netowork in dataset 7 with 20 taxis/ users. We have 8 stations in this sample.
+Next task is to generate the Network containing all the users, servers and services deployed. For that, update fileds in [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json). Following configuratins will create a netowork in dataset 7 with 20 taxis/ users. We have 8 stations/ edge servers in this sample.
 
 ```
 {
