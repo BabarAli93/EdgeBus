@@ -72,4 +72,9 @@ Update the path to data folder so that the configurations are picked and respect
 ```
 DATA_PATH = "/home/babarali/mobilekube-v2/data"
 ```
+## mobility-preprocessing
+In here, you will generate user mobolity patterns to be used by the simulator and GKE cluster. Navigate to 'EdgeBus/mobility-preprocssing'
 
+```
+pip install -r requirements.txt
+```
