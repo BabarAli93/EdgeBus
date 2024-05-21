@@ -164,6 +164,7 @@ This dataset will be generated from script in the experiments folder. Navigate t
 ```
 python generate_dataset.py
 ```
+You can find the newly created dataset or a clutser in other words at the [Path](data/datasets)
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
 ### 4.3 analysis
