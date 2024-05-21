@@ -104,16 +104,16 @@ There are further three sub-folders in here.
 ### 4.1 dataset
 For experiment, we need to generate Dataset (servers cluster, Containers/ services, containers CPU and memory requests and capacities), network (users, tower creation and their deployment), workload (CPU and Memory load inside the containers) and user's movement traces.
 #### dataset
-To generate dataset, first of all there is a need to create a JSON file os modify an existing containing the configurations of servers, servers quantity, total containers and their resource request. For that, you can use existing one at [EdgeBus/data/configs/generation-configs/hetero-configs](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs)
+To generate dataset, first of all there is a need to create a JSON file os modify an existing containing the configurations of servers, servers quantity, total containers and their resource request. For that, you can use existing one at [EdgeBus/data/configs/generation-configs/hetero-configs](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs/heterodataset.json). Given configuration will create one edge server, four containers/ services with two resources of CPU and RAM. You can modify the CPU and RAM of each node individually at 'nodes_cap_rng'. For detailed reference visit the [JSON configuration](https://github.com/BabarAli93/EdgeBus/tree/main/data/configs/generation-configs/hetero-configs/heterodataset.json) file. Finally, the workload shows the CPU and memory laod to put inside each container.
 ```
 {
     "notes":"Paper Heterogeneous dataset: 8 Nodes, 16 services",
     "nums": {
-        "nodes": 8,
-        "services": 16,
+        "nodes": 1,
+        "services": 4,
         "resources": 2,
         "services_types": 1,
-        "services_types_map": [16]
+        "services_types_map": [4]
     },
     "metrics": {
         "ram":"mb",
