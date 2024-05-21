@@ -218,6 +218,8 @@ To generate user movement traces, navigate to [EdgeBus/data/configs/generation-c
     "seed": 42
 }
 ```
+
+Everything is ready for the experimentation now. Get ready for training or testing!
 ### 4.2 training
 It has scripts related to evaluate DRL trained agents and heuristic agents both in the simulated and GKE bestbed 
 ### 4.3 analysis
