@@ -62,17 +62,17 @@ This folder contains configuration files required in this project realated to ed
 3. mobile-kube: It has custom gymnasium environment employed in these settings and the simulation of chosen scheduler
 4. mobility-preprocessing: This folder is responsible to generate user mobility traces based on simulation or Cabspotting and California Tower datasets
 
-## mobile-kube
+## 1. mobile-kube
 First of all, install this package. Navigate to mobile-kube folder and execute this line of code in the terminal
 ```
 pip install -e .
 ```
-## data
+## 2. data
 Update the path to data folder so that the configurations are picked and respected cluster is created. Go to experiments folder and modify ```constants.py``` in the utils directory which can be found at here [experiments/utils/constants.py](https://github.com/BabarAli93/EdgeBus/blob/main/experiments/utils/constants.py)
 ```
 DATA_PATH = "/home/babarali/mobilekube-v2/data"
 ```
-## mobility-preprocessing
+## 3. mobility-preprocessing
 In here, you will generate user mobility traces to be used by the simulator and GKE cluster. Navigate to 'EdgeBus/mobility-preprocssing'
 
 ```
@@ -99,11 +99,11 @@ python main.py
 ```
 This step will take time depending upon the Computational Power of host machine as it needs to process data of almost 536 taxi from the Cabspotting dataset and eventually generate one file containing longiture and latitude over the course of time. 
 
-## experiments
+## 4. experiments
 There are further three sub-folders in here.
-a. analysis
-b. dataset
-c. training
+4.1 analysis
+4.2 dataset
+4.3 training
 
 
 
