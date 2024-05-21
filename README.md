@@ -167,7 +167,7 @@ python generate_dataset.py
 You can find the newly created dataset or a clutser in other words at the [Path](data/datasets). These are generated in numbered folders and these numbers are needed for next steps to produce network, workload and movement traces for correact cluster. 
 
 #### Workload
-Go to [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteronetwork.json) and make required modificatins. Following given configurations will create workload for dataset number7 for 10000 timesteps. 
+Go to [EdgeBus/data/configs/generation-configs/hetero-configs/heteronetwork.json](data/configs/generation-configs/hetero-configs/heteroworkload.json) and make required modificatins. Following given configurations will create workload for dataset number7 for 10000 timesteps. 
 
 ```
 {
