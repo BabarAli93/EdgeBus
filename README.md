@@ -25,17 +25,19 @@ Co-Simulator for Resource Management in Mobile Edge Computing Enviornment.
 git clone https://github.com/BabarAli93/EdgeBus.git
 ```
 2. Install [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/) or use Python for virtual environment creation.
-6. You can create a virtual environment using either conda or Python's built-in venv module.
+3. You can create a virtual environment using either conda or Python's built-in venv module.
    
    Using conda:
    ```
    conda create --name Env_Name python=3.9.16
    ```
-   OR
+   Or
    Using Python's venv:
    ```
    python3 -m venv Env_Name
    ```
-8. Activate the virtual environment. For conda: 
-9. 
-
+4. Activate the virtual environment. For conda:
+```
+conda activate Env_Name
+```
+5. 
