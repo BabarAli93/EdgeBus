@@ -67,4 +67,8 @@ First of all, install this package. Navigate to mobile-kube folder and execute t
 ```
 pip install -e .
 ```
+## data
+Link the data folder so that the configurations are picked and respected clusetr is created. Go to experiments folder and modify ```constants.py```
+
+
 
