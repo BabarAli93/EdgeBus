@@ -1,4 +1,4 @@
-# EdgeBus
+# EdgeBus: Co-Simulation based Resource Management for Heterogeneous Mobile Edge Computing Environments
 
 Kubernetes has revolutionised traditional monolithic Internet of Things (IoT) applications into lightweight, decentralized, and
 independent microservices, thus becoming the de facto standard in the realm of container orchestration. Intelligent and efficient
