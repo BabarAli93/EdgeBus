@@ -248,3 +248,16 @@ python experiments/training/train-v1.py --mode real --local-mode false --config-
 ### 4.3 analysis
 Modify the evaulation script [EdgeBus/experiments/analysis/test_rls.py](EdgeBus/experiments/analysis/test_rls.py) at here to the correct fileds and evaluate trained DRL model. For Heusistics model, use script [EdgeBus/experiments/analysis/test_baselines.py](EdgeBus/experiments/analysis/test_baselines.py).
 
+# Cite this work
+```bibtex
+@article{ALI2024101368,
+title = {EdgeBus: Co-Simulation based resource management for heterogeneous mobile edge computing environments},
+journal = {Internet of Things},
+pages = {101368},
+year = {2024},
+issn = {2542-6605},
+doi = {https://doi.org/10.1016/j.iot.2024.101368},
+url = {https://www.sciencedirect.com/science/article/pii/S2542660524003093},
+author = {Babar Ali and Muhammed Golec and Sukhpal Singh Gill and Huaming Wu and Felix Cuadrado and Steve Uhlig},
+keywords = {Edge computing, Internet of Things, Artificial intelligence, Google Kubernetes Engine, Container orchestration}
+}
