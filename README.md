@@ -261,7 +261,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S2542660524003093},
 author = {Babar Ali and Muhammed Golec and Sukhpal Singh Gill and Huaming Wu and Felix Cuadrado and Steve Uhlig},
 keywords = {Edge computing, Internet of Things, Artificial intelligence, Google Kubernetes Engine, Container orchestration}
 }
-
+```
 # License
 
 BSD-3-Clause. Copyright (c) 2024, Babar Ali. All rights reserved.
